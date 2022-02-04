@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.google.com/specimen/Outfit">
+  <title>Frontend Mentor | QR code component</title>
+</head>
+<meta charset="utf-8">
+<title>Vertically Align an Image inside a DIV using CSS</title>
+<style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    body{
+        background-color: hsl(212, 45%, 89%);
+    }
+
+    .frame{  
+        width: 350px;
+        height: 530px;
+        margin: 20px;
+        border: 1px solid transparent;
+        position: relative;
+        margin: auto;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: white;
+    }    
+    img{  
+        max-height: 90%;  
+        max-width: 90%; 
+        position: absolute;  
+        top: 0;  
+        bottom: 34%;  
+        left: 0;  
+        right: 0;  
+        margin: auto;
+        border-radius: 15px;
+    }
+    h1{
+      font-family: "Outfit", sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      padding-top: 97%;
+      padding-left: 7%;
+      padding-right: 7%;
+      
+    }
+    
+    h2{
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      text-align: center;
+      color: hsl(220, 15%, 55%);
+      padding-top: 3%;
+      padding-left: 7%;
+      padding-right: 7%;
+    }
+</style>
+</head>
+<body>
+    <div class="frame">
+        <img src=".\images\image-qr-code.png" alt="Club Card">
+        <h1><b>Improve your front-end skills by building projects</h1>
+        <h2 >Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h2>
+    </div>
+</body>
+</html>
